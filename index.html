@@ -1,1 +1,39 @@
-
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Web</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Keiko Kesha Zakhir Heryadi</h1>
+        <h2>102022300071 • Fakultas Rekayasa Industri • S1 Sistem Informasi</h2>
+    </header>
+    <section class="profile">
+        <img src="profile3.jpg" alt="Foto Profil">
+    </section>
+    <section class="social-media">
+        <h3>My Socials</h3>
+        <a href="https://x.com/Bantopul1" target="_blank">
+            <img src="X.png" alt="X" width="50">
+        </a>
+        <a href="https://github.com/keikokzh" target="_blank">
+            <img src="Github.png" alt="GitHub" width="50">
+        </a>
+        <a href="https://www.instagram.com/kkheryadi?igsh=MTRpc3hobHYxb241Mw==" target="_blank">
+            <img src="Instagram.png" alt="Instagram" width="50">
+        </a>
+    </section>
+    <section class="info">
+        <h3>About Me</h3>
+        <p>I'm just a 20 years old Telkom University student trying to live and enjoy my life the best i can. Remember folks, we're here for a good time not a long time.</p>
+        <p id="datetime"></p>
+    </section>
+    <script>
+        document.getElementById("datetime").innerHTML = new Date().toLocaleString();
+    </script>
+</body>
+</html>
